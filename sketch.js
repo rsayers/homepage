@@ -46,7 +46,7 @@ function setup() {
 }
 
 function draw() {
-    if (window.innerWidth < 900) {
+    if (window.innerWidth < 1000) {
         
         return;
     }
