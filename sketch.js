@@ -46,7 +46,10 @@ function setup() {
 }
 
 function draw() {
-
+    if (window.innerWidth < 900) {
+        
+        return;
+    }
     background(255);
     for (const point of points) {
         point.draw();
